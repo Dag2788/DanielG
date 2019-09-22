@@ -3,16 +3,16 @@ import React from 'react';
 // eslint-disable-next-line
 type props = {
    text: String,
-   link: String, 
+   link: any, 
 }
 // eslint-enable-next-line
 
 
-function Button(props) {
+function Link(props) {
 const { text, link } = props;
   return (
-    <button class="button" href={link}>{text}</button>
+    <a class="header" href={link}>{text}</a>
   );
 }
 
-export default Button;
+export default Link;

@@ -5,6 +5,7 @@
   "dependencies": {
     "classnames": "^2.2.6",
     "react": "^16.8.6",
+    "react-burger-menu": "^2.6.11",
     "react-device-detect": "^1.9.9",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"

@@ -1,18 +1,11 @@
 import React from 'react';
-import Button from '../common/button/button'
-import { isMobile } from "react-device-detect";
-
-
+import Link from '../common/link/link'
 
 function Header() {
   return (
- <div className="header sticky">
-    <span className='right'>
-     <Button text='Home' link='/'/>
-     <Button text='Resume' link='/'/>
-     <Button text='Pets' link='/'/>
-     </span>
- </div>
+  <div className='header sticky padding-header'>
+      <Link text="DANIEL GARZA" link="/"/>
+  </div>
   );
 }
 
