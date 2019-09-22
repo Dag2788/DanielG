@@ -3,15 +3,23 @@ import React from 'react';
 // eslint-disable-next-line
 type props = {
    text: String,
-   link: String, 
+   handleClick: Function,
+   style: String, 
 }
 // eslint-enable-next-line
 
 
+
 function Button(props) {
-const { text, link } = props;
+  const { text, style } = props;
+
+
+   const handleEvent = (props) => {
+    const { text, handleClick } = props;
+    handleClick(text);
+  }
   return (
-    <button class="button" href={link}>{text}</button>
+    <a className={style} onClick={() => handleEvent(props)}>{text}</a>
   );
 }
 

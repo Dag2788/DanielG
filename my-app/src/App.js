@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import BurgerMenu from './header/burgerMenu';
 import Header from './header/header'
