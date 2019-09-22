@@ -212,6 +212,67 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin-left: 10%;
 }
 
+.thd_logo {
+  height: 150px;
+  width: 150px;
+  /* position: absolute;
+  left: 20%; */
+}
+
+.logo { grid-area: logo; }
+.tittle { grid-area: tittle; }
+.info { grid-area: info; }
+.space { grid-area: space; }
+.stack { grid-area: stack; }
+.stack2 { grid-area: stack2; }
+.stack3 { grid-area: stack3; }
+
+
+.grid-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-areas:
+    'logo logo tittle tittle tittle tittle' 
+    'space info info stack stack2 stack3';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+
+
+.bold {
+  font-weight: bold
+}
+
+.fontLarge {
+  font-size: large
+}
+
+.fontMedium {
+  font-size: medium
+}
+
+.fontSmall {
+  font-size: small
+}
+
+.fontAlignLeft {
+  text-align: left
+}
+
+.fontAlignRight {
+  text-align: right
+}
+
+.fontAlignCenter {
+  text-align: center
+}
+
+.fontAlignJustify {
+  text-align: justify
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -229,6 +290,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .headerText {
     margin-left: 40px; 
+    padding: 0px 0px 0px 0px;
   }
 
   .AustinPic {
@@ -259,6 +321,22 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .linkOptions {
     margin-left: 20%;
     margin-right: 20%;
+  }
+
+  .grid-container {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-areas:
+      'logo logo' 
+       'tittle tittle' 
+      'info info'
+      'stack stack'
+      'stack2 stack2'
+      'stack3 stack3';;
+    grid-gap: 10px;
+    padding: 10px;
   }
 }
 
