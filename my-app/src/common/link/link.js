@@ -4,14 +4,15 @@ import React from 'react';
 type props = {
    text: String,
    link: any, 
+   style: String,
 }
 // eslint-enable-next-line
 
 
 function Link(props) {
-const { text, link } = props;
+const { text, link, style } = props;
   return (
-    <a class="header" href={link}>{text}</a>
+    <a class={style} href={link}>{text}</a>
   );
 }
 

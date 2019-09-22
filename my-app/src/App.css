@@ -39,6 +39,11 @@
   font-size: calc(30px + 2vmin);
 }
 
+.linkStyle {
+  color: rgb(8, 8, 8);
+  font-size: calc(30px + 2vmin);
+}
+
 .content {
   padding: 16px;
 }
@@ -46,7 +51,7 @@
 .sticky {
   position: fixed;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .button {
@@ -172,17 +177,42 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .padding-header {
   padding: 25px 35px;
   z-index: 5;
-  
-
-  
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-    background-color: green;
-    border: 2px solid #4CAF50;
-  
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 /* end of  padding  */
+
+.greetingDiv {
+  background-image: url("./pictures/AustinPic.png");
+  max-width:100%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  position: relative;
+}
+
+.Lineseparator {
+  border-top: 2px solid black;
+
+}
+
+.myFace {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  margin-top: 23%;
+  margin-left: 10%;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   .right {
@@ -196,4 +226,39 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 300px;
     padding: 10px;
   }
+
+  .headerText {
+    margin-left: 40px; 
+  }
+
+  .AustinPic {
+    max-width:100%;
+  }
+
+  .greetingDiv {
+    background-image: url("./pictures/AustinPic.png");
+    max-width:100%;
+    background-color: #cccccc;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .myFace {
+    height: 100px;
+    width: 100px;
+  }
+
+
+  .options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+
+  .linkOptions {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
+
