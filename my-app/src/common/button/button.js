@@ -19,7 +19,7 @@ function Button(props) {
     handleClick(text);
   }
   return (
-    <a className={style} onClick={() => handleEvent(props)}>{text}</a>
+    <a className={style} href={`#${text}`} onClick={() => handleEvent(props)}>{text}</a>
   );
 }
 
