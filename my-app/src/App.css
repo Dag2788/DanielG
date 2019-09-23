@@ -212,11 +212,22 @@ Note: Beware of modifying this element as it can break the animations - you shou
   margin-left: 10%;
 }
 
+.aboutMyFace {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
 .thd_logo {
   height: 150px;
   width: 150px;
   /* position: absolute;
   left: 20%; */
+}
+
+.longhorn_logo {
+  height: 100px;
+  width: 200px;
 }
 
 .logo { grid-area: logo; }
@@ -238,6 +249,31 @@ Note: Beware of modifying this element as it can break the animations - you shou
     'space info info stack stack2 stack3';
   grid-gap: 10px;
   padding: 10px;
+}
+
+.grid-container-education {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-areas:
+    'logo logo tittle tittle tittle tittle' 
+    'space info stack stack stack stack';
+  grid-gap: 10px;
+  padding: 20px;
+}
+
+.grid-container-aboutMe {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+  display: grid;
+  grid-template-areas:
+    'logo logo tittle tittle tittle tittle' 
+    'info info stack stack stack2 stack3';
+
+  grid-gap: 10px;
+  padding: 20px;
 }
 
 
@@ -335,6 +371,20 @@ Note: Beware of modifying this element as it can break the animations - you shou
       'stack stack'
       'stack2 stack2'
       'stack3 stack3';;
+    grid-gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-container-education {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-areas:
+      'logo logo' 
+      'tittle tittle' 
+      'info info'
+      'stack stack';
     grid-gap: 10px;
     padding: 10px;
   }

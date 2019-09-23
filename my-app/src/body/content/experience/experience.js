@@ -47,6 +47,7 @@ function Experience() {
                 <div className=' fontAlignLeft fontMedium'>AspectJ</div> 
                 <div className=' fontAlignLeft fontMedium'>Swagger</div> 
         </div>
+        <div className='space'></div>
         <div className='stack2'>
                 <div className='bold fontAlignLeft fontLarge'>Frontend:</div>
                 <div className=' fontAlignLeft fontMedium'>Node</div>
@@ -54,6 +55,9 @@ function Experience() {
                 <div className=' fontAlignLeft fontMedium'>Thunk</div> 
                 <div className=' fontAlignLeft fontMedium'>Prettier</div>
                 <div className=' fontAlignLeft fontMedium'>JSLint</div> 
+                <div className=' fontAlignLeft fontMedium'>Jasmine</div> 
+                <div className=' fontAlignLeft fontMedium'>Karma</div> 
+
             </div>
             <div className='stack3'>
                 <div className='bold fontAlignLeft fontLarge'>CI/CD:</div>

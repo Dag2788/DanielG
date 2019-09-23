@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import Button from '../../common/button/button'
 import Experience from './experience/experience';
+import Education from './education/education';
+import AboutMe from './aboutMe/aboutme';
 
 
 class Content extends Component {
@@ -44,13 +46,13 @@ class Content extends Component {
         return (
             <React.Fragment>
             <div className='options'>
-            <Button style='header linkOptions' text="Experience" handleClick={this.handleClick}/>
-            <Button style='header linkOptions' text="Education" handleClick={this.handleClick}/>
-            <Button style='header linkOptions' text="About Me" handleClick={this.handleClick}/>
+            {!experience &&  <Button style='header linkOptions' text="Experience" handleClick={this.handleClick}/>}
+            {!education &&  <Button style='header linkOptions' text="Education" handleClick={this.handleClick}/>}
+            {!aboutMe && <Button style='header linkOptions' text="About Me" handleClick={this.handleClick}/>}
             </div>
             {experience && <Experience/>}
-            {education && <div>EDUCATIONS</div>}
-            {aboutMe && <div>ABOUT ME</div>}
+            {education && <Education/>}
+            {aboutMe && <AboutMe/>}
             </React.Fragment>
             );
 
