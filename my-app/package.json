@@ -2,8 +2,10 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://dag2788.github.io/DanielG/my-app/public/index.html",
   "dependencies": {
     "classnames": "^2.2.6",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.11",
     "react-device-detect": "^1.9.9",
@@ -14,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
