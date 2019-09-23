@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/DanielG/my-app/public/index.html/static/css/main.9dfec8cf.chunk.css",
+    "main.js": "/DanielG/my-app/public/index.html/static/js/main.05871836.chunk.js",
+    "main.js.map": "/DanielG/my-app/public/index.html/static/js/main.05871836.chunk.js.map",
+    "runtime~main.js": "/DanielG/my-app/public/index.html/static/js/runtime~main.35517219.js",
+    "runtime~main.js.map": "/DanielG/my-app/public/index.html/static/js/runtime~main.35517219.js.map",
+    "static/js/2.d998281c.chunk.js": "/DanielG/my-app/public/index.html/static/js/2.d998281c.chunk.js",
+    "static/js/2.d998281c.chunk.js.map": "/DanielG/my-app/public/index.html/static/js/2.d998281c.chunk.js.map",
+    "index.html": "/DanielG/my-app/public/index.html/index.html",
+    "precache-manifest.407d3523f4196aea100014f70104a419.js": "/DanielG/my-app/public/index.html/precache-manifest.407d3523f4196aea100014f70104a419.js",
+    "service-worker.js": "/DanielG/my-app/public/index.html/service-worker.js",
+    "static/css/main.9dfec8cf.chunk.css.map": "/DanielG/my-app/public/index.html/static/css/main.9dfec8cf.chunk.css.map",
+    "static/media/App.css": "/DanielG/my-app/public/index.html/static/media/AustinPic.8f79bd9c.png",
+    "static/media/THD_logo.jpg": "/DanielG/my-app/public/index.html/static/media/THD_logo.b8b83e0e.jpg",
+    "static/media/myFace2.jpg": "/DanielG/my-app/public/index.html/static/media/myFace2.712421aa.jpg",
+    "static/media/myFace4.png": "/DanielG/my-app/public/index.html/static/media/myFace4.ae54a1dd.png"
+  }
+}
