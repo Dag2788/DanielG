@@ -3,6 +3,7 @@ import Button from '../../common/button/button'
 import Experience from './experience/experience';
 import Education from './education/education';
 import AboutMe from './aboutMe/aboutme';
+import {isMobile, MobileView } from 'react-device-detect';
 
 
 class Content extends Component {
@@ -45,14 +46,24 @@ class Content extends Component {
         const { experience, education, aboutMe } = this.state;
         return (
             <React.Fragment>
-            <div className='options'>
-            {!experience &&  <Button style='header linkOptions' text="Experience" handleClick={this.handleClick}/>}
-            {!education &&  <Button style='header linkOptions' text="Education" handleClick={this.handleClick}/>}
-            {!aboutMe && <Button style='header linkOptions' text="About Me" handleClick={this.handleClick}/>}
-            </div>
-            {experience && <Experience/>}
-            {education && <Education/>}
-            {aboutMe && <AboutMe/>}
+            {!isMobile && (<div className='options'>
+             <Button style='header linkOptions' text="Experience" handleClick={this.handleClick}/>
+              <Button style='header linkOptions' text="Education" handleClick={this.handleClick}/>
+             <Button style='header linkOptions' text="About Me" handleClick={this.handleClick}/>
+            </div>)}
+            {experience && !isMobile && <Experience/>}
+            {education && !isMobile && <Education/>}
+            {aboutMe && !isMobile && <AboutMe/>}
+
+            { isMobile && MobileView && (<div className='options'>
+            <Button style='header linkOptions' text="Experience" handleClick={this.handleClick}/>
+            <Experience/>
+            <Button style='header linkOptions' text="Education" handleClick={this.handleClick}/>
+            <Education/>
+            <Button style='header linkOptions' text="About Me" handleClick={this.handleClick}/>
+            <AboutMe/>
+            </div>)}
+           
             </React.Fragment>
             );
 

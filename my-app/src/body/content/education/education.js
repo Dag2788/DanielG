@@ -14,7 +14,8 @@ function Education() {
 
   return (
     <React.Fragment>
-         <div id="Education" className='grid-container-education'>
+        <div id="Education"></div>
+         <div className='grid-container-education'>
             <span className='logo'>
             <img className="longhorn_logo" src={longHorn} alt="Hook'em Horns!"/>
            </span>

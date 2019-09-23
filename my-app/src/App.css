@@ -198,8 +198,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .Lineseparator {
-  border-top: 2px solid black;
-
+  border-bottom: 2px solid black;
 }
 
 .myFace {
@@ -271,7 +270,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   grid-template-areas:
     'logo logo tittle tittle tittle tittle' 
     'info info stack stack stack2 stack3';
-
   grid-gap: 10px;
   padding: 20px;
 }
@@ -387,6 +385,26 @@ Note: Beware of modifying this element as it can break the animations - you shou
       'stack stack';
     grid-gap: 10px;
     padding: 10px;
+  }
+
+  .grid-container-aboutMe {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-areas:
+      'logo logo'
+       'tittle tittle'
+      'info info' 
+      'stack stack'
+       'stack2 stack2'
+       'stack3 stack3';
+    grid-gap: 10px;
+    padding: 20px;
+  }
+  
+  .Lineseparator {
+    border-bottom: 2px solid black;
   }
 }
 

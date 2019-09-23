@@ -14,7 +14,8 @@ function Experience() {
 
   return (
     <React.Fragment>
-         <div id="Experience" className='grid-container'>
+         <div id="Experience"></div>
+         <div className='grid-container'>
             <span className='logo'>
             <img className="thd_logo" src={THD} alt="THD"/>
            </span>

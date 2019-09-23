@@ -1,5 +1,5 @@
 import React from 'react';
-import Dan from '../../../pictures/myFace.png'
+import Dan from '../../../pictures/myFace2.jpg'
 
 // eslint-disable-next-line
 // type props = {
@@ -14,7 +14,8 @@ function AboutMe() {
 
   return (
     <React.Fragment>
-         <div id="About Me" className='grid-container-aboutMe'>
+          <div id="About Me"></div>
+         <div className='grid-container-aboutMe'>
             <span className='logo'>
             <img className="aboutMyFace"  src={Dan} alt="Dan"/>
            </span>
@@ -52,9 +53,9 @@ function AboutMe() {
         </div>
         <div className='stack2'>
                 <div className='bold fontAlignLeft fontLarge'>Favorite Books:</div>
-                <div className=' fontAlignLeft fontMedium'>Secrets of the Millionaire Mind</div>
-                <div className=' fontAlignLeft fontMedium'>The Richest Man in Babylon </div>  
-                <div className=' fontAlignLeft fontMedium'>Inevitable Genius</div> 
+                <div className=' fontAlignLeft fontMedium'>Secrets of the Millionaire Mind.</div>
+                <div className=' fontAlignLeft fontMedium'>The Richest Man in Babylon.</div>  
+                <div className=' fontAlignLeft fontMedium'>Inevitable Genius.</div> 
             </div>
             <div className='stack3'>
                 <div className='bold fontAlignLeft fontLarge'>Contact:</div>

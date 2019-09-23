@@ -1,5 +1,5 @@
 import React from 'react';
-import Dan from '../../pictures/myFace.png'
+import Dan from '../../pictures/myFace4.png'
 
 
 function Greeting() {

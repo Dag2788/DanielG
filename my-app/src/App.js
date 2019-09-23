@@ -4,13 +4,14 @@ import BurgerMenu from './header/burgerMenu';
 import Header from './header/header'
 import Greeting from './body/greeting/greeting';
 import Content from './body/content/content';
+import {isMobile, MobileView } from 'react-device-detect';
+
 
 function App() {
   return (
-    <div className="App">
-      <BurgerMenu/>
+    <div id='top' className="App">
+     {isMobile && MobileView && <BurgerMenu/>}
       <Header/>
-      <div className="Lineseparator"/>
       <Greeting/>
       <Content/>
   
