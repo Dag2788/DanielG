@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/DanielG/my-app/public/static/css/main.f7862720.chunk.css",
-    "main.js": "/DanielG/my-app/public/static/js/main.85331fd0.chunk.js",
-    "main.js.map": "/DanielG/my-app/public/static/js/main.85331fd0.chunk.js.map",
-    "runtime~main.js": "/DanielG/my-app/public/static/js/runtime~main.1a362268.js",
-    "runtime~main.js.map": "/DanielG/my-app/public/static/js/runtime~main.1a362268.js.map",
-    "static/js/2.d998281c.chunk.js": "/DanielG/my-app/public/static/js/2.d998281c.chunk.js",
-    "static/js/2.d998281c.chunk.js.map": "/DanielG/my-app/public/static/js/2.d998281c.chunk.js.map",
-    "index.html": "/DanielG/my-app/public/index.html",
-    "precache-manifest.84eda8bcc27511627ba9e5e084695c17.js": "/DanielG/my-app/public/precache-manifest.84eda8bcc27511627ba9e5e084695c17.js",
-    "service-worker.js": "/DanielG/my-app/public/service-worker.js",
-    "static/css/main.f7862720.chunk.css.map": "/DanielG/my-app/public/static/css/main.f7862720.chunk.css.map",
-    "static/media/App.css": "/DanielG/my-app/public/static/media/AustinPic.8f79bd9c.png",
-    "static/media/THD_logo.jpg": "/DanielG/my-app/public/static/media/THD_logo.b8b83e0e.jpg",
-    "static/media/myFace2.jpg": "/DanielG/my-app/public/static/media/myFace2.712421aa.jpg",
-    "static/media/myFace4.png": "/DanielG/my-app/public/static/media/myFace4.ae54a1dd.png"
+    "main.css": "/DanielG/static/css/main.4111a6b5.chunk.css",
+    "main.js": "/DanielG/static/js/main.9751d5c7.chunk.js",
+    "main.js.map": "/DanielG/static/js/main.9751d5c7.chunk.js.map",
+    "runtime~main.js": "/DanielG/static/js/runtime~main.e8b12e7c.js",
+    "runtime~main.js.map": "/DanielG/static/js/runtime~main.e8b12e7c.js.map",
+    "static/js/2.d998281c.chunk.js": "/DanielG/static/js/2.d998281c.chunk.js",
+    "static/js/2.d998281c.chunk.js.map": "/DanielG/static/js/2.d998281c.chunk.js.map",
+    "index.html": "/DanielG/index.html",
+    "precache-manifest.c8090fad06a748ceb09691f2c847048c.js": "/DanielG/precache-manifest.c8090fad06a748ceb09691f2c847048c.js",
+    "service-worker.js": "/DanielG/service-worker.js",
+    "static/css/main.4111a6b5.chunk.css.map": "/DanielG/static/css/main.4111a6b5.chunk.css.map",
+    "static/media/App.css": "/DanielG/static/media/AustinPic.8f79bd9c.png",
+    "static/media/THD_logo.jpg": "/DanielG/static/media/THD_logo.b8b83e0e.jpg",
+    "static/media/myFace2.jpg": "/DanielG/static/media/myFace2.712421aa.jpg",
+    "static/media/myFace4.png": "/DanielG/static/media/myFace4.ae54a1dd.png"
   }
 }
