@@ -14,8 +14,29 @@ function Education() {
 
   return (
     <React.Fragment>
-        <div id="Education"></div>
-         <div className='grid-container-education'>
+      <div className='row marginTop'>
+    <div className='col-9'>
+    <div className='greetingTextExp'>EDUCATION:</div>
+
+    </div>
+    <div className='col-3'>
+    </div>
+    </div>
+    <div className='parallax-education'>
+        <div  id="Education"></div>
+        <div class="col-12 whiteBoxText">
+            <div className='container'>
+                <div className='row marginTop'>
+                <img className="longhorn_logo" src={longHorn} alt="Hook'em Horns!"/>
+                <div className='row'>
+                <div className=' tittle bold fontAlignCenter contentEducationInfo'>The University of Texas at Austin</div>
+                <div className=' fontAlignCenter contentEducationInfo'>Bachelor of Science in Computer Science</div>
+                <div className=' fontAlignCenter contentEducationInfo'>August 2011 - May 2015</div>
+                </div>
+                </div>
+            </div>
+            </div>
+         {/* <div className='grid-container-education'>
             <span className='logo'>
             <img className="longhorn_logo" src={longHorn} alt="Hook'em Horns!"/>
            </span>
@@ -53,8 +74,9 @@ function Education() {
                 <div className=' fontAlignLeft fontMedium'>Git</div> 
 
         </div>
-        </div>
+        </div> */}
      
+    </div>
     </React.Fragment>
   );
 }

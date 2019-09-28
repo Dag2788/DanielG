@@ -15,7 +15,54 @@ function Experience() {
   return (
     <React.Fragment>
          <div id="Experience"></div>
-         <div className='grid-container'>
+         {/* <div className='contentText col-8'>
+             Experience.
+        </div>
+             <div className='backgroundRed col-2'>
+             </div> */}
+      <div class="row experienceSection">
+        <div class="col-4">
+        <div className='contentText backgroundRed'>EXPERIENCE:</div>
+        </div>
+        <div class="col-2">
+        </div>
+        <div class="col-6">
+        </div>
+      </div>
+      <div class="row experienceSection blackandWhiteBox">
+        <div class="col-6">
+            <div className='row'>
+            <div className='tittle bold fontAlignLeft contentTextInfo col-12'>Full Stack Software Developer</div>
+            </div>
+            <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>The Home Depot</div>
+                </div>
+
+                <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>April 2016 - Present</div>
+                </div>
+
+                <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>Austin, Tx</div>  
+                </div>
+
+          
+        </div>
+        <div class="col-6">
+        <div class="container">
+        <span className='logo'>
+            <img className="thd_logo marginTopXtra" src={THD} alt="THD"/>
+           </span>
+        </div>
+
+        </div>
+      </div>
+ 
+
+         {/* <div className='grid-container'>
             <span className='logo'>
             <img className="thd_logo" src={THD} alt="THD"/>
            </span>
@@ -65,7 +112,7 @@ function Experience() {
                 <div className=' fontAlignLeft fontMedium'>Git</div>
                 <div className=' fontAlignLeft fontMedium'>Concourse</div>  
             </div>
-        </div>
+        </div> */}
      
     </React.Fragment>
   );

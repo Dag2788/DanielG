@@ -79,6 +79,11 @@
   padding: 10px;
 }
 
+
+.greetingSpace {
+  padding-bottom: 40px;
+}
+
 .burgerMenu {
   float: left;
   width: 300px;
@@ -212,22 +217,30 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .aboutMyFace {
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.myFaceGreeting {
+  height: 65%;
+  width: 65%;
   border-radius: 50%;
 }
 
 .thd_logo {
-  height: 150px;
-  width: 150px;
+  height: 400px;
+  width: 400px;
   /* position: absolute;
   left: 20%; */
 }
 
 .longhorn_logo {
-  height: 100px;
-  width: 200px;
+  height: 150px;
+  width: 300px;
 }
+
+
 
 .logo { grid-area: logo; }
 .tittle { grid-area: tittle; }
@@ -274,6 +287,258 @@ Note: Beware of modifying this element as it can break the animations - you shou
   padding: 20px;
 }
 
+
+.parallax {
+  /* The image used */
+  background-image: url("./pictures/austin4.jpg");
+
+  /* Set a specific height */
+  height: 400px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax-education {
+  /* The image used */
+  background-image: url("./pictures/UT1.jpg");
+
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.greetingText {
+  font-size:30vw;
+  font-family: 'Franklin Gothic Medium';
+  color: red;
+}
+
+.greetingTextExp {
+  font-size:15vw;
+  font-family: 'Franklin Gothic Medium';
+  color: red;
+}
+
+.educationText {
+font-size:10vw;
+font-family: 'Franklin Gothic Medium';
+color: black;
+}
+
+.softwareEngineerText {
+  font-size:15vw;
+font-family: 'Franklin Gothic Medium';
+color: black;
+text-align: left;
+}
+
+.whiteBoxText {
+  background:rgba(255,255,255, 0.7) ; 
+  margin-top: 40px !important;
+  padding-bottom: 20px;
+}
+
+.blackandWhiteBox {
+  background:rgba(56, 56, 56, 0.7) ; 
+  padding-bottom: 20px;
+}
+
+.backgroundRed{
+  background-color: red;
+  max-width: 800px;
+  height: 20px;
+}
+
+.contentText {
+  font-size: 18vh;
+  color:black;
+}
+
+.contentTextInfo {
+  font-size: 10vh;
+  color: white;
+}
+
+.contentEducationInfo {
+  font-size: 8vh;
+  color: black;
+}
+
+.contentTextAboutMe {
+  font-size: 18vh;
+  color:black;
+}
+
+@keyframes techStackLeft {
+  0%   { left: 0px; top: 0px;}
+  25%  { left: 200px; top: 0px;}
+  50%  { left: 200px; top: 0px;}
+  75%  { left: 200px; top: 0px;}
+  100% { left: 0px; top: 0px;}
+}
+
+.leftTechStack {
+  position: relative;
+  -webkit-animation: techStackLeft 5s 2; /* Safari 4.0 - 8.0 */
+  -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+  animation-direction: alternate-reverse;
+  animation: techStackLeft 5s infinite;}
+
+  .marquee {
+    white-space: nowrap;
+    -webkit-animation: bobble 4s infinite;
+    margin-right: 10px;
+    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate-reverse;
+    animation: bobble 4s infinite;
+  }
+
+  .marquee2 {
+    white-space: nowrap;
+    -webkit-animation: bobble 4s infinite;
+    margin-right: 10px;
+    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate-reverse;
+    animation: bobble 4s infinite;
+  }
+
+  .marquee3 {
+    white-space: nowrap;
+    -webkit-animation: bobble 4s infinite;
+    margin-right: 15px;
+    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate-reverse;
+    animation: bobble 4s infinite;
+  }
+
+  .marquee4 {
+    white-space: nowrap;
+    -webkit-animation: bobble 4s infinite;
+    margin-right: 20px;
+    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
+    animation-direction: alternate-reverse;
+    animation: bobble 4s infinite;
+  }
+ 
+  /* test */
+  .circle {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+  }
+
+  .circle:hover {
+    transform: translateX(200px);
+  }
+  .circle0:hover {
+    transform: translateX(200px);
+  }
+  .circle1:hover {
+    transform: translateX(-50px);
+  }
+  .circle0 {
+    background: PaleTurquoise;
+    transition: all 1.5s linear;
+  } 
+  
+  .circle1 {
+    background: salmon;
+    transition: all 1.5s ease;
+  }
+  
+  .circle2 {
+    background: lightskyblue;
+    transition: all 1.5s ease-in;
+  }
+  
+  .circle3 {
+
+    background: khaki;
+    transition: all 1.5s ease-out;
+  }
+  
+  .circle4 {
+    background: mediumturquoise;
+    transition: all 1.5s ease-in-out;
+  }
+  
+  .circle5 {
+    background: thistle;
+    transition: all 1.5s cubic-bezier(0,1,.98,0); 
+  }
+  
+/* remove test */
+
+@-webkit-keyframes rightThenLeft {
+    0%   {margin-right:25%;}
+    50%  {margin-right:0;}
+    100% {margin-right:25%;}
+}
+
+@keyframes rightThenLeft {
+  0%   {margin-right:25%;}
+  50%  {margin-right:0;}
+  100% {margin-right:25%;}
+}
+
+@-webkit-keyframes leftThenRight {
+  0%   {margin-left:25%;}
+  50%  {margin-left:0;}
+  100% {margin-left:25%;}
+}
+
+@keyframes leftThenRight {
+0%   {margin-left:25%;}
+50%  {margin-left:0;}
+100% {margin-left:25%;}
+}
+
+
+
+.experienceSection {
+  margin-top: 300px;
+}
+
+.marginTop {
+  margin-top: 30px;
+}
+
+.marginTopXtra {
+  margin-top: 50px;
+}
+
+.marginBottomXtra {
+  margin-top: 50px;
+}
+
+.fontWork {
+  font-size: 10vw;
+  text-align: right;
+}
+
+.fontProficient {
+  font-size: 10vh;
+}
+
+.fontGood {
+  font-size: 7vh;
+}
+
+.fontOk {
+  font-size: 4vh;
+}
 
 
 .bold {
@@ -406,5 +671,65 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .Lineseparator {
     border-bottom: 2px solid black;
   }
+
+  .whiteBoxText {
+    background:rgba(255,255,255, 0.7) ; 
+    margin-top: 15px !important;
+    padding-bottom: 20px;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("./pictures/austinHorizontal.jpg");
+  
+    /* Set a specific height */
+    height: 300px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .greetingText {
+    font-size: 20vh;
+    font-family: 'Franklin Gothic Medium';
+    color: red;
+    text-align: left;
+  }
+
+  .fontProficient {
+    font-size: 10vh;
+  }
+  
+  .fontGood {
+    font-size: 7vh;
+  }
+  
+  .fontOk {
+    font-size: 4vh;
+  }
+
+  .parallax-education {
+    /* The image used */
+    background-image: url("./pictures/UT1.jpg");
+  
+    /* Set a specific height */
+    height: 1100px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  }
+
+  .softwareEngineerText{
+    font-size: 60px;
+    text-align: left;
+  }
+  
 }
 

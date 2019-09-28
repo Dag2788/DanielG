@@ -1,12 +1,19 @@
 import React from 'react';
-import Dan from '../../pictures/myFace4.png'
 
 
 function Greeting() {
   return (
-  <div className="greetingDiv">
-    <img className="myFace" src={Dan} alt="Dan"/>
+    <div className='parallax'>
+  <div className="container">
+    <div className='row'></div>
+    <div className='col-4'>
+      <div className='greetingText'>DG</div>
+    </div>
+    {/* <img className="myFace" src={Dan} alt="Dan"/> */}
   </div>
+  </div>
+
+
   );
 }
 

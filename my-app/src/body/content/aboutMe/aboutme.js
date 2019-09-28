@@ -15,7 +15,46 @@ function AboutMe() {
   return (
     <React.Fragment>
           <div id="About Me"></div>
-         <div className='grid-container-aboutMe'>
+          <div class="row experienceSection">
+        <div class="col-6">
+        <div className='backgroundRed'></div>
+        <div className='contentText'>ABOUT ME:</div>
+        </div>
+        <div class="col-6">
+        </div>
+      </div>
+      <div class="row experienceSection blackandWhiteBox">
+        <div class="col-6">
+            <div className='row'>
+            <div className='tittle bold fontAlignLeft contentTextInfo col-12'>Passionate about Programming.</div>
+            </div>
+            <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>Positive and Enthusiastic.</div>
+                </div>
+
+                <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>Goal Oriented.</div>
+                </div>
+
+                <div className='row'>
+
+                <div className=' fontAlignLeft contentTextInfo'>ENFJ.</div>  
+                </div>
+
+          
+        </div>
+        <div class="col-6">
+        <div class="container">
+        <span className='logo'>
+            <img className="thd_logo marginTopXtra" src={Dan} alt="THD"/>
+           </span>
+        </div>
+
+        </div>
+      </div>
+         {/* <div className='grid-container-aboutMe'>
             <span className='logo'>
             <img className="aboutMyFace"  src={Dan} alt="Dan"/>
            </span>
@@ -61,7 +100,7 @@ function AboutMe() {
                 <div className='bold fontAlignLeft fontLarge'>Contact:</div>
                 <div className=' fontAlignLeft fontMedium'>dgza88@gmail.com</div>
             </div>
-        </div>
+        </div> */}
      
     </React.Fragment>
   );
