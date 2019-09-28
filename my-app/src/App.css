@@ -317,6 +317,21 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 }
 
+.parallax-cats {
+  /* The image used */
+  background-image: url("./pictures/honey_lady.jpg");
+
+  /* Set a specific height */
+  height: 700px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
 
 .greetingText {
   font-size:30vw;
@@ -326,6 +341,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .greetingTextExp {
   font-size:15vw;
+  font-family: 'Franklin Gothic Medium';
+  color: red;
+}
+
+.greetingTextAbout{
+  font-size:10vw;
   font-family: 'Franklin Gothic Medium';
   color: red;
 }
@@ -379,6 +400,8 @@ text-align: left;
   font-size: 18vh;
   color:black;
 }
+
+
 
 @keyframes techStackLeft {
   0%   { left: 0px; top: 0px;}

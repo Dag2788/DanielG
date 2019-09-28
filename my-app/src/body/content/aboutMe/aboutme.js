@@ -15,15 +15,13 @@ function AboutMe() {
   return (
     <React.Fragment>
           <div id="About Me"></div>
-          <div class="row experienceSection">
-        <div class="col-6">
-        <div className='backgroundRed'></div>
-        <div className='contentText'>ABOUT ME:</div>
-        </div>
-        <div class="col-6">
-        </div>
-      </div>
-      <div class="row experienceSection blackandWhiteBox">
+          <div className='row marginTop'>
+    <div className='col-12'>
+    <div className='greetingTextAbout'>ABOUT ME:</div>
+
+    </div>
+    </div>
+      <div class="row blackandWhiteBox">
         <div class="col-6">
             <div className='row'>
             <div className='tittle bold fontAlignLeft contentTextInfo col-12'>Passionate about Programming.</div>

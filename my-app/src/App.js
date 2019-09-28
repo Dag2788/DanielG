@@ -12,6 +12,8 @@ import Experience from './body/content/experience/experience';
 import AboutMe from './body/content/aboutMe/aboutme';
 import TechStackBed from './body/content/techStackBed';
 import WorkExperience from './body/content/workExperience';
+import FactsAboutMe from './body/content/factsAboutMe';
+import MyCats from './body/content/myCats';
 
 function App() {
   return (
@@ -87,16 +89,30 @@ function App() {
         </div>
       </div>
 
-      {/* <div className='row'>
-      <TechStack/>     
-        </div> */}
          <div className='row'>
       <Content/>
       </div>
-      {/* <div className='row'>
-      <AboutMe/>
-      </div>  */}
-     
+      <div class="row">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+        <div className='backgroundRed'></div>
+
+        </div>
+      </div>
+
+      <div className='row'>
+      <FactsAboutMe/>
+      </div> 
+      <div class="row">
+        <div class="col-6">
+        </div>
+        <div class="col-6">
+        <div className='backgroundRed'></div>
+
+        </div>
+      </div>
+      <MyCats/>
       </div>
   
   );
