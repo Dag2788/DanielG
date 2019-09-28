@@ -16,19 +16,19 @@ class Cats extends Component {
             <Carousel dynamicHeight width='100%' infiniteLoop autoPlay>
                 <div>
                     <img src={HoneyLady} />
-                    <p className="legend">Legend 1</p>
+                    <p className="legend">Honey and Lady</p>
                 </div>
                 <div>
                     <img src={Honey1} />
-                    <p className="legend">Legend 2</p>
+                    <p className="legend">Honey</p>
                 </div>
                 <div>
                     <img src={Honey2} />
-                    <p className="legend">Legend 3</p>
+                    <p className="legend">Get it!</p>
                 </div>
                 <div>
                     <img src={Roar} />
-                    <p className="legend">Legend 4</p>
+                    <p className="legend">Roar!</p>
                 </div>
             </Carousel>
         );
