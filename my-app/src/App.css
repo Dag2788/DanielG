@@ -333,8 +333,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 
-.greetingText {
+.greetingTextDG {
   font-size:30vw;
+  font-family: 'Franklin Gothic Medium';
+  color: red;
+}
+
+.greetingText {
+  font-size:15vw;
   font-family: 'Franklin Gothic Medium';
   color: red;
 }
@@ -530,6 +536,7 @@ text-align: left;
 
 
 
+
 .experienceSection {
   margin-top: 300px;
 }
@@ -706,13 +713,14 @@ text-align: left;
     background-image: url("./pictures/austinHorizontal.jpg");
   
     /* Set a specific height */
-    height: 300px;
+    height: 600px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
   }
 
   .greetingText {
@@ -739,7 +747,7 @@ text-align: left;
     background-image: url("./pictures/UT1.jpg");
   
     /* Set a specific height */
-    height: 1100px;
+    height: 900px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;

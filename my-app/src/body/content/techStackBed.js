@@ -23,10 +23,8 @@ function TechStackBed() {
   return (
   <div className='educationText'>
     <div className='row'>
-    <div className='col-3'>
-    </div>
-    <div className='col-9'>
-      <div className='greetingText'>BED:</div>
+    <div className='col-12'>
+      <div className='greetingText'>Back End:</div>
     </div>
     </div>
       <div className='row'>

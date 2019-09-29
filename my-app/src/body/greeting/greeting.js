@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Austin from '../../pictures/austin3.jpg'
 
 function Greeting() {
   return (
@@ -7,11 +7,12 @@ function Greeting() {
   <div className="container">
     <div className='row'></div>
     <div className='col-4'>
-      <div className='greetingText'>DG</div>
+      <div className='greetingTextDG'>DG</div>
+      </div>
     </div>
     {/* <img className="myFace" src={Dan} alt="Dan"/> */}
   </div>
-  </div>
+
 
 
   );
