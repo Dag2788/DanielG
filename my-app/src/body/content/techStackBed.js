@@ -24,7 +24,7 @@ function TechStackBed() {
   <div className='educationText'>
     <div className='row'>
     <div className='col-12'>
-      <div className='greetingText'>Back End:</div>
+      <div className='tittleText fontAlignRight'>Back End:</div>
     </div>
     </div>
       <div className='row'>

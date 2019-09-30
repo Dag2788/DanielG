@@ -24,7 +24,7 @@ function WorkExperience() {
   <div className='educationText'>
     <div className='row marginTop'>
     <div className='col-9'>
-    <div className='greetingTextExp'>EXPERIENCE:</div>
+    <div className='greetingTextExp fontAlignRight'>Experience:</div>
 
     </div>
     <div className='col-3'>

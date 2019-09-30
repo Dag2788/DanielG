@@ -24,7 +24,7 @@ function FactsAboutMe() {
   <div className='educationText'>
     <div className='row marginTop'>
     <div className='col-9'>
-    <div className='greetingTextExp'>ABOUT ME:</div>
+    <div className='greetingTextAboutMe fontAlignRight'>About me:</div>
 
     </div>
     <div className='col-3'>

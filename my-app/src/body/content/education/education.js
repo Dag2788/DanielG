@@ -16,7 +16,7 @@ function Education() {
     <React.Fragment>
       <div className='row marginTop'>
     <div className='col-9'>
-    <div className='greetingTextExp'>EDUCATION:</div>
+    <div className='greetingTextExp fontAlignRight'>Education:</div>
 
     </div>
     <div className='col-3'>

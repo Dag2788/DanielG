@@ -5,8 +5,13 @@ import HoneyLady from '../../pictures/honey_lady.jpg'
 import Honey1 from '../../pictures/honey1.jpg'
 import Honey2 from '../../pictures/honey2.jpg'
 import Roar from '../../pictures/roar.jpg'
-import Vid1 from '../../pictures/vid1.mp4'
-import Vid2 from '../../pictures/vid2.mp4'
+import cat1 from '../../pictures/cats/cat1.jpg'
+import cat2 from '../../pictures/cats/cat2.jpg'
+import cat3 from '../../pictures/cats/cat3.jpg'
+import cat4 from '../../pictures/cats/cat4.jpg'
+import cat5 from '../../pictures/cats/cat5.jpg'
+import cat6 from '../../pictures/cats/cat6.jpg'
+
 
 
 
@@ -14,21 +19,29 @@ class Cats extends Component {
     render() {
         return (
             <Carousel dynamicHeight width='100%' infiniteLoop autoPlay>
-                <div>
-                    <img src={HoneyLady} />
-                    <p className="legend">Honey and Lady</p>
-                </div>
-                <div>
-                    <img src={Honey1} />
+                <div >
+                    <img  src={cat1} />
                     <p className="legend">Honey</p>
                 </div>
-                <div>
-                    <img src={Honey2} />
-                    <p className="legend">Get it!</p>
+                <div >
+                    <img  src={cat2} />
+                    <p className="legend">Lady</p>
                 </div>
                 <div>
-                    <img src={Roar} />
-                    <p className="legend">Roar!</p>
+                    <img  src={cat3} />
+                    <p className="legend">What is that?</p>
+                </div>
+                <div >
+                    <img src={cat4} />
+                    <p className="legend">Nap time!</p>
+                </div>
+                <div >
+                    <img src={cat5} />
+                    <p className="legend">Lady</p>
+                </div>
+                <div>
+                    <img src={cat6} />
+                    <p className="legend">Honey</p>
                 </div>
             </Carousel>
         );

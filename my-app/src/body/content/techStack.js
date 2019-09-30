@@ -24,7 +24,7 @@ function TechStack() {
   <div className='educationText'>
     <div className='row'>
     <div className='col-12'>
-      <div className='greetingText'>Front End:</div>
+      <div className='tittleText fontAlignRight'>Front End:</div>
     </div>
     </div>
       <div className='row'>

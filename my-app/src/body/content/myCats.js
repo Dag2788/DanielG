@@ -18,7 +18,7 @@ function MyCats() {
     <div className='col-3'>
     </div>
     <div className='col-9 fontAlignRight'>
-    <div className='greetingTextExp'>MY CATS:</div>
+    <div className='greetingTextExp fontAlignRight'>My Cats:</div>
 
     </div>
     </div>
