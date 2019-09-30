@@ -7,7 +7,7 @@ function TechStackBed() {
   <div className='educationText'>
      {!isMobile  && <div className='row'>
     <div className='col-12'>
-      <div className='tittleText fontAlignRight'>Back End:</div>
+      <div className='greetingTextExp fontAlignRight'>Back End:</div>
     </div>
   </div> }
       <div className='row'>

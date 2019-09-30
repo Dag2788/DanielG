@@ -25,7 +25,7 @@ function TechStack() {
   <div className='educationText'>
     {!isMobile  && <div className='row'>
     <div className='col-12'>
-      <div className='tittleText fontAlignRight'>Front End:</div>
+      <div className='greetingTextExp fontAlignRight'>Front End:</div>
     </div>
     </div>}
       <div className='row'>

@@ -16,11 +16,9 @@ function Education() {
   return (
     <React.Fragment>
  {!isMobile && <div className='row marginTop'>
-    <div className='col-9'>
+    <div className='col-12'>
     <div className='greetingTextExp fontAlignRight'>Education:</div>
 
-    </div>
-    <div className='col-3'>
     </div>
   </div> }
     <div className='parallax-education'>

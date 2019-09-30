@@ -24,11 +24,9 @@ function FactsAboutMe() {
   return (
   <div className='educationText'>
   {!isMobile &&  <div className='row marginTop'>
-    <div className='col-9'>
-    <div className='greetingTextAboutMe fontAlignRight'>About me:</div>
+    <div className='col-12'>
+    <div className='greetingTextExp fontAlignRight'>About me:</div>
 
-    </div>
-    <div className='col-3'>
     </div>
   </div> }
       <div className='row'>
