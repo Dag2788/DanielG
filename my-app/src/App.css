@@ -240,6 +240,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   width: 300px;
 }
 
+.circle{
+  border-radius:150px;
+  background-color: white;
+  padding: 50px 50px 50px 50px;
+}
+
 
 
 .logo { grid-area: logo; }
@@ -485,52 +491,7 @@ text-align: left;
   }
  
   /* test */
-  .circle {
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    margin: 10px;
-  }
 
-  .circle:hover {
-    transform: translateX(200px);
-  }
-  .circle0:hover {
-    transform: translateX(200px);
-  }
-  .circle1:hover {
-    transform: translateX(-50px);
-  }
-  .circle0 {
-    background: PaleTurquoise;
-    transition: all 1.5s linear;
-  } 
-  
-  .circle1 {
-    background: salmon;
-    transition: all 1.5s ease;
-  }
-  
-  .circle2 {
-    background: lightskyblue;
-    transition: all 1.5s ease-in;
-  }
-  
-  .circle3 {
-
-    background: khaki;
-    transition: all 1.5s ease-out;
-  }
-  
-  .circle4 {
-    background: mediumturquoise;
-    transition: all 1.5s ease-in-out;
-  }
-  
-  .circle5 {
-    background: thistle;
-    transition: all 1.5s cubic-bezier(0,1,.98,0); 
-  }
   
 /* remove test */
 
@@ -739,54 +700,54 @@ text-align: left;
 
   .parallax {
     /* The image used */
-    background-image: url("./pictures/austinHorizontal.jpg");
-  
+    background-image: none;
+    background-color: black;
+
     /* Set a specific height */
     height: 300px;
   
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    -o-background-size: cover;
+    -o-background-size: cover; */
     
   }
 
   .greetingText {
-    font-size: 20vh;
+    font-size: 20vw;
     font-family: 'Franklin Gothic Medium';
-    color: red;
+    color: black;
     text-align: left;
   }
 
   .tittleTexts {
-    font-size: 20vh;
+    font-size: 20vw;
     font-family: 'Franklin Gothic Medium';
     color: rgb(76, 57, 243);
     text-align: left;
   }
 
   .fontProficient {
-    font-size: 10vh;
+    font-size: 10vw;
   }
   
   .fontGood {
-    font-size: 7vh;
+    font-size: 7vw;
   }
   
   .fontOk {
-    font-size: 4vh;
+    font-size: 4vw;
   }
 
   .parallax-education {
     /* The image used */
     background-image: url("./pictures/UT1.jpg");
-  
     /* Set a specific height */
-    height: 900px;
+    height: 1100px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -803,6 +764,21 @@ text-align: left;
     font-size: 60px;
     text-align: left;
   }
+
+  .greetingTextDG {
+    font-size:30vw;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+    border-radius:150px;
+    background-color: white;
+    padding: 50px 50px 50px 50px;
+  }
+
+  .blackDivider{
+    background-color: black;
+    color: white;
+  }
+
   
 }
 

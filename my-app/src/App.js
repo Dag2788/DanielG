@@ -43,7 +43,7 @@ function App() {
         <div className='softwareEngineerText'>DEVELOPER.</div>
       </div>
       </div>
-      <div class="row">
+    {!isMobile && !MobileView && <div class="row">
         <div class="col-3">
         </div>
         <div class="col-3">
@@ -51,60 +51,91 @@ function App() {
         <div class="col-6">
           <div className='backgroundRed'></div>
         </div>
-      </div>
+    </div> }
+
+    {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          Front End:
+        </div>
+    </div> }
 
       <div className='row'>
       <TechStack/>     
         </div>
-        <div class="row">
+        {!isMobile && !MobileView &&    <div class="row">
         <div class="col-6">
         <div className='backgroundRed'></div>
         </div>
         <div class="col-6">
         </div>
-      </div>
+    </div> }
+
+      {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          Back End:
+        </div>
+    </div> }
 
         <div className='row'>
       {/* <Content/> */}
       <TechStackBed/>
       </div>
 
-      <div class="row">
+      {!isMobile && !MobileView &&  <div class="row">
         <div class="col-6">
         </div>
         <div class="col-6">
         <div className='backgroundRed'></div>
 
         </div>
-      </div>
+    </div> }
+
+      {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          Experience:
+        </div>
+    </div> }
+
       <div className='row'>
       <WorkExperience/>
       </div>
-      <div class="row">
+    {!isMobile && !MobileView &&  <div class="row">
         <div class="col-6">
         </div>
         <div class="col-6">
         <div className='backgroundRed'></div>
 
         </div>
-      </div>
+    </div> }
+
+    {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          Education:
+        </div>
+    </div> }
 
          <div className='row'>
       <Content/>
       </div>
-      <div class="row">
+  {!isMobile && !MobileView &&  <div class="row">
         <div class="col-6">
         </div>
         <div class="col-6">
         <div className='backgroundRed'></div>
 
         </div>
-      </div>
+    </div> }
+
+    {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          About me:
+        </div>
+    </div> }
 
       <div className='row'>
       <FactsAboutMe/>
       </div> 
-      <div class="row">
+    {!isMobile && !MobileView &&  <div class="row">
         <div class="col-6">
         </div>
         <div class="col-6">
@@ -112,6 +143,12 @@ function App() {
 
         </div>
       </div>
+    }
+        {isMobile && MobileView && <div class="marginTopXtra blackDivider row">
+        <div class="fontAlignRight blackDivider greetingTextExp col-12">
+          My Cats:
+        </div>
+    </div> }
       <MyCats/>
       </div>
   

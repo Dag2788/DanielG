@@ -16,20 +16,21 @@ import swaggerLogo from '../../pictures/logos/Swagger-logo.png'
 import testNgLogo from '../../pictures/logos/testNg.jpg'
 import webpackLogo from '../../pictures/logos/webpack.png'
 import zipkinLogo from '../../pictures/logos/Zipkin.jpg'
+import { isMobile, MobileView } from 'react-device-detect';
 
 
 
 function FactsAboutMe() {
   return (
   <div className='educationText'>
-    <div className='row marginTop'>
+  {!isMobile &&  <div className='row marginTop'>
     <div className='col-9'>
     <div className='greetingTextAboutMe fontAlignRight'>About me:</div>
 
     </div>
     <div className='col-3'>
     </div>
-    </div>
+  </div> }
       <div className='row'>
       <div className='col-12 fontAlignRight'>
           <span className='fontWork '>Problem Solver.</span>

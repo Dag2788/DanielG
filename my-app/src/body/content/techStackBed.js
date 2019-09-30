@@ -1,32 +1,15 @@
 import React from 'react';
-import reactIcon from '../../pictures/logos/reactIcon.png' // needs fixing
-import aspectJ from '../../pictures/logos/Aspectj.jpg'
-import angularLogo from '../../pictures/logos/angularLogo.svg'
-import apiLogo from '../../pictures/logos/apiLogo.jpg'
-import cssLogo from '../../pictures/logos/cssLogo.png'
-import cucumberLogo from '../../pictures/logos/cucumberLogo.png'
-import gruntLogo from '../../pictures/logos/gruntLogo.png'
-import htmlLogo from '../../pictures/logos/htmlLogo.jpg'
-import jasmineLogo from '../../pictures/logos/JasmineJS.svg'
-import javaLogo from '../../pictures/logos/javaLogo.png'
-import javascriptLogo from '../../pictures/logos/javascript-logo.png'
-import seleniumLogo from '../../pictures/logos/selenium.png'
-import springBootLogo from '../../pictures/logos/spring-boot-logo.png'
-import swaggerLogo from '../../pictures/logos/Swagger-logo.png'
-import testNgLogo from '../../pictures/logos/testNg.jpg'
-import webpackLogo from '../../pictures/logos/webpack.png'
-import zipkinLogo from '../../pictures/logos/Zipkin.jpg'
-
+import { isMobile, MobileView } from 'react-device-detect';
 
 
 function TechStackBed() {
   return (
   <div className='educationText'>
-    <div className='row'>
+     {!isMobile  && <div className='row'>
     <div className='col-12'>
       <div className='tittleText fontAlignRight'>Back End:</div>
     </div>
-    </div>
+  </div> }
       <div className='row'>
       <div className='col-4'>
           <span className='fontProficient'>Java</span>

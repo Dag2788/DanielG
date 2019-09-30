@@ -16,17 +16,18 @@ import swaggerLogo from '../../pictures/logos/Swagger-logo.png'
 import testNgLogo from '../../pictures/logos/testNg.jpg'
 import webpackLogo from '../../pictures/logos/webpack.png'
 import zipkinLogo from '../../pictures/logos/Zipkin.jpg'
+import { isMobile, MobileView } from 'react-device-detect';
 
 
 
 function TechStack() {
   return (
   <div className='educationText'>
-    <div className='row'>
+    {!isMobile  && <div className='row'>
     <div className='col-12'>
       <div className='tittleText fontAlignRight'>Front End:</div>
     </div>
-    </div>
+    </div>}
       <div className='row'>
       <div className='col-4'>
           <span className='fontProficient'>JavaScript</span>

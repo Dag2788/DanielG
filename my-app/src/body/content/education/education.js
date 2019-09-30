@@ -1,5 +1,6 @@
 import React from 'react';
 import longHorn from '../../../pictures/longhorn_logo.png'
+import { isMobile, MobileView } from 'react-device-detect';
 
 // eslint-disable-next-line
 // type props = {
@@ -14,14 +15,14 @@ function Education() {
 
   return (
     <React.Fragment>
-      <div className='row marginTop'>
+ {!isMobile && <div className='row marginTop'>
     <div className='col-9'>
     <div className='greetingTextExp fontAlignRight'>Education:</div>
 
     </div>
     <div className='col-3'>
     </div>
-    </div>
+  </div> }
     <div className='parallax-education'>
         <div  id="Education"></div>
         <div class="col-12 whiteBoxText">

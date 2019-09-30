@@ -16,20 +16,21 @@ import swaggerLogo from '../../pictures/logos/Swagger-logo.png'
 import testNgLogo from '../../pictures/logos/testNg.jpg'
 import webpackLogo from '../../pictures/logos/webpack.png'
 import zipkinLogo from '../../pictures/logos/Zipkin.jpg'
+import { isMobile, MobileView } from 'react-device-detect';
 
 
 
 function WorkExperience() {
   return (
   <div className='educationText'>
-    <div className='row marginTop'>
+  {!isMobile && <div className='row marginTop'>
     <div className='col-9'>
     <div className='greetingTextExp fontAlignRight'>Experience:</div>
 
     </div>
     <div className='col-3'>
     </div>
-    </div>
+  </div> }
       <div className='row'>
       <div className='col-12 fontAlignRight'>
           <span className='fontWork '>Full Stack Software Engineer</span>

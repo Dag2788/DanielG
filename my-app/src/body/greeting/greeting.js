@@ -1,5 +1,6 @@
 import React from 'react';
 import Austin from '../../pictures/austin3.jpg'
+import { isMobile, MobileView}  from 'react-device-detect';
 
 function Greeting() {
   return (
@@ -7,7 +8,8 @@ function Greeting() {
   <div className="container">
     <div className='row'></div>
     <div className='col-4'>
-      <div className='greetingTextDG'>DG</div>
+  {!isMobile && <div className='greetingTextDG'>DG</div> }  
+  {isMobile && MobileView &&  <div className='greetingTextDG circle'>DG</div> }
       </div>
     </div>
     {/* <img className="myFace" src={Dan} alt="Dan"/> */}
