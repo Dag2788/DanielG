@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/DanielG/static/css/main.c352fd4f.chunk.css",
+    "main.css": "/DanielG/static/css/main.a7f99cfc.chunk.css",
     "main.js": "/DanielG/static/js/main.4870a97f.chunk.js",
     "main.js.map": "/DanielG/static/js/main.4870a97f.chunk.js.map",
     "runtime~main.js": "/DanielG/static/js/runtime~main.e8b12e7c.js",
@@ -9,10 +9,10 @@
     "static/js/2.e730382e.chunk.js": "/DanielG/static/js/2.e730382e.chunk.js",
     "static/js/2.e730382e.chunk.js.map": "/DanielG/static/js/2.e730382e.chunk.js.map",
     "index.html": "/DanielG/index.html",
-    "precache-manifest.b987c803eadcec0de780444b8b2fe4da.js": "/DanielG/precache-manifest.b987c803eadcec0de780444b8b2fe4da.js",
+    "precache-manifest.24a8c7a44b75cb48d003b7bcc8545b56.js": "/DanielG/precache-manifest.24a8c7a44b75cb48d003b7bcc8545b56.js",
     "service-worker.js": "/DanielG/service-worker.js",
     "static/css/2.3c1ddb0a.chunk.css.map": "/DanielG/static/css/2.3c1ddb0a.chunk.css.map",
-    "static/css/main.c352fd4f.chunk.css.map": "/DanielG/static/css/main.c352fd4f.chunk.css.map",
+    "static/css/main.a7f99cfc.chunk.css.map": "/DanielG/static/css/main.a7f99cfc.chunk.css.map",
     "static/media/Aspectj.jpg": "/DanielG/static/media/Aspectj.5ff84b0c.jpg",
     "static/media/App.css": "/DanielG/static/media/austin4.9ca08f83.jpg",
     "static/media/JasmineJS.svg": "/DanielG/static/media/JasmineJS.c1f3e24b.svg",
