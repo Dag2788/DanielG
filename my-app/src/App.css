@@ -748,7 +748,7 @@ text-align: left;
     background-image: none;
     background-color: black;
     /* Set a specific height */
-    height: 700;
+    height: 505px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
