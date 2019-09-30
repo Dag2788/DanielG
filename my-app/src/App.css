@@ -786,7 +786,7 @@ text-align: left;
     background-image: url("./pictures/UT1.jpg");
   
     /* Set a specific height */
-    height: 600px;
+    height: 900px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
