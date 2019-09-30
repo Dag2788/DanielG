@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "edc9c4c1e91ae5321783800eedaffa88",
+    "revision": "447223a7fef6920fe5088b573d53ceda",
     "url": "/DanielG/index.html"
   },
   {
-    "revision": "d0b0e11eb86d5c70b837",
+    "revision": "6f66c6df90900db06125",
     "url": "/DanielG/static/css/2.3c1ddb0a.chunk.css"
   },
   {
-    "revision": "c4a2f68bb7520a146df9",
-    "url": "/DanielG/static/css/main.5f4570f9.chunk.css"
+    "revision": "17b2865bc3a26df91abb",
+    "url": "/DanielG/static/css/main.c352fd4f.chunk.css"
   },
   {
-    "revision": "d0b0e11eb86d5c70b837",
-    "url": "/DanielG/static/js/2.a6b55aa2.chunk.js"
+    "revision": "6f66c6df90900db06125",
+    "url": "/DanielG/static/js/2.e730382e.chunk.js"
   },
   {
-    "revision": "c4a2f68bb7520a146df9",
-    "url": "/DanielG/static/js/main.aff097d3.chunk.js"
+    "revision": "17b2865bc3a26df91abb",
+    "url": "/DanielG/static/js/main.62be23c7.chunk.js"
   },
   {
     "revision": "fc529bcb0ca6189cfe75",
@@ -62,10 +62,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9ca08f839ed8fa49943f46daf0d44abb",
     "url": "/DanielG/static/media/austin4.9ca08f83.jpg"
-  },
-  {
-    "revision": "7cd1d96cf14de1ddd1bcee339d6207d8",
-    "url": "/DanielG/static/media/austinHorizontal.7cd1d96c.jpg"
   },
   {
     "revision": "4954ce07ee75489ca5c81c63b4730c0c",
