@@ -745,9 +745,10 @@ text-align: left;
 
   .parallax-education {
     /* The image used */
-    background-image: url("./pictures/UT1.jpg");
+    background-image: none;
+    background-color: black;
     /* Set a specific height */
-    height: 1100px;
+    height: 700;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -780,7 +781,7 @@ text-align: left;
   }
 
   .contentEducationInfo {
-    font-size: 10vw;
+    font-size: 8vw;
     color: black;
   }
 
