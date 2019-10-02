@@ -1,68 +1,61 @@
-import React from 'react';
-import THD from '../../../pictures/THD_logo.jpg'
+import React from "react";
+import THD from "../../../pictures/THD_logo.jpg";
 
 // eslint-disable-next-line
 // type props = {
 //    text: String,
-//    link: any, 
+//    link: any,
 //    style: String,
 // }
 // eslint-enable-next-line
 
-
-function Experience() {
-
+function Experience1() {
   return (
     <React.Fragment>
-         <div id="Experience"></div>
-         {/* <div className='contentText col-8'>
+      <div id="Experience"></div>
+      {/* <div className='contentText col-8'>
              Experience.
         </div>
              <div className='backgroundRed col-2'>
              </div> */}
       <div class="row experienceSection">
         <div class="col-4">
-        <div className='contentText backgroundRed'>EXPERIENCE:</div>
+          <div className="contentText backgroundRed">EXPERIENCE:</div>
         </div>
-        <div class="col-2">
-        </div>
-        <div class="col-6">
-        </div>
+        <div class="col-2"></div>
+        <div class="col-6"></div>
       </div>
       <div class="row experienceSection blackandWhiteBox">
         <div class="col-6">
-            <div className='row'>
-            <div className='tittle bold fontAlignLeft contentTextInfo col-12'>Full Stack Software Developer</div>
+          <div className="row">
+            <div className="tittle bold fontAlignLeft contentTextInfo col-12">
+              Full Stack Software Developer
             </div>
-            <div className='row'>
+          </div>
+          <div className="row">
+            <div className=" fontAlignLeft contentTextInfo">The Home Depot</div>
+          </div>
 
-                <div className=' fontAlignLeft contentTextInfo'>The Home Depot</div>
-                </div>
+          <div className="row">
+            <div className=" fontAlignLeft contentTextInfo">
+              April 2016 - Present
+            </div>
+          </div>
 
-                <div className='row'>
-
-                <div className=' fontAlignLeft contentTextInfo'>April 2016 - Present</div>
-                </div>
-
-                <div className='row'>
-
-                <div className=' fontAlignLeft contentTextInfo'>Austin, Tx</div>  
-                </div>
-
-          
+          <div className="row">
+            <div className=" fontAlignLeft contentTextInfo">Austin, Tx</div>
+          </div>
         </div>
         <div class="col-6">
-        <div class="container">
-        <span className='logo'>
-            <img className="thd_logo marginTopXtra" src={THD} alt="THD"/>
-           </span>
-        </div>
-
+          <div class="container">
+            <span className="logo">
+              <img className="thd_logo marginTopXtra" src={THD} alt="THD" />
+            </span>
+          </div>
         </div>
       </div>
- 
 
-         {/* <div className='grid-container'>
+      {/* <div className='grid-container'>
             <span className='logo'>
             <img className="thd_logo" src={THD} alt="THD"/>
            </span>
@@ -113,9 +106,8 @@ function Experience() {
                 <div className=' fontAlignLeft fontMedium'>Concourse</div>  
             </div>
         </div> */}
-     
     </React.Fragment>
   );
 }
 
-export default Experience;
+export default Experience1;

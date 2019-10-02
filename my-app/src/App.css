@@ -1,6 +1,5 @@
-
 .parallax-container {
-     height: 500px;
+  height: 500px;
 }
 
 .fontLobster {
@@ -35,12 +34,40 @@
   text-align: center;
 }
 
+.textAlignRight {
+  text-align: right;
+}
+
+.picPortion {
+  background-image: "./pictures/UT1.jpg";
+}
+
+.stackDivisor {
+  border-right-style: solid;
+}
+
+.whiteBoxText {
+  background: rgba(68, 67, 67, 0.7);
+  margin-top: 100px !important;
+  padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .quoteHeight {
     height: 900px;
   }
 
-  
-  
-}
+  .headerHeight {
+    height: 100px;
+  }
 
+  .stackDivisor {
+    border-right-style: none;
+  }
+
+  .whiteBoxText {
+    background: rgba(68, 67, 67, 0.7);
+    margin-top: 20px !important;
+    padding-bottom: 20px;
+  }
+}
