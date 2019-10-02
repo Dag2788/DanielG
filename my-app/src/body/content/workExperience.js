@@ -1,57 +1,44 @@
 import React from 'react';
-import reactIcon from '../../pictures/logos/reactIcon.png' // needs fixing
-import aspectJ from '../../pictures/logos/Aspectj.jpg'
-import angularLogo from '../../pictures/logos/angularLogo.svg'
-import apiLogo from '../../pictures/logos/apiLogo.jpg'
-import cssLogo from '../../pictures/logos/cssLogo.png'
-import cucumberLogo from '../../pictures/logos/cucumberLogo.png'
-import gruntLogo from '../../pictures/logos/gruntLogo.png'
-import htmlLogo from '../../pictures/logos/htmlLogo.jpg'
-import jasmineLogo from '../../pictures/logos/JasmineJS.svg'
-import javaLogo from '../../pictures/logos/javaLogo.png'
-import javascriptLogo from '../../pictures/logos/javascript-logo.png'
-import seleniumLogo from '../../pictures/logos/selenium.png'
-import springBootLogo from '../../pictures/logos/spring-boot-logo.png'
-import swaggerLogo from '../../pictures/logos/Swagger-logo.png'
-import testNgLogo from '../../pictures/logos/testNg.jpg'
-import webpackLogo from '../../pictures/logos/webpack.png'
-import zipkinLogo from '../../pictures/logos/Zipkin.jpg'
+import resume from '../../pictures/resume.pdf';
+import thd from '../../pictures/THD_logo.jpg'
 
-
-
-function WorkExperience() {
+function Experience() {
   return (
-  <div className='educationText'>
-    <div className='row marginTop'>
-    <div className='col-9'>
-    <div className='greetingTextExp'>EXPERIENCE:</div>
-
+    <div class="section white">
+      <div class="row container">
+        <h1 class="col s4 offset-s4 grey-text text-darken-3 lighten-3 fontLobster">Experience:
+        </h1>
+      </div>
+      <div class="row">
+    <div class="col s12 m6 push-m3">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator" src={thd}/>
     </div>
-    <div className='col-3'>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+      <p><a href="#">This is a link</a></p>
     </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
     </div>
-      <div className='row'>
-      <div className='col-12 fontAlignRight'>
-          <span className='fontWork '>Full Stack Software Engineer</span>
-      </div>
-      </div>
-      <div className='row'>
-      <div className='col-12 fontAlignRight'>
-          <span className='fontWork '>The Home Depot</span>
-      </div>
-      </div>
-      <div className='row'>
-      <div className='col-12 fontAlignRight'>
-          <span className='fontWork '>April 2016 - Present</span>
-      </div>
-      </div>
-      <div className='row'>
-      <div className='col-12 fontAlignRight'>
-          <span className='fontWork '>Austin, Tx</span>
-      </div>
-      </div>
   </div>
+      {/* <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively.</p>
+        </div>
+        <div class="card-action">
+          <a href="#">This is a link</a>
+          <a href="#">This is a link</a>
+        </div>
+      </div> */}
+    </div>
+  </div>
+    </div>
   );
 }
 
-export default WorkExperience;
+export default Experience;

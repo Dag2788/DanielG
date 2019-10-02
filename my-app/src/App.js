@@ -5,6 +5,10 @@ import digital from './pictures/digital.jpg';
 import Greeting from './body/greeting/greeting';
 import Objective from './body/content/objective';
 import TechStack from './body/content/techStack';
+import Quote from './body/content/quote';
+import TechStackBed from './body/content/techStackBed';
+import Experience from './body/content/workExperience';
+import QuoteTwo from './body/content/quoteTwo';
 
 
 function App() {
@@ -13,15 +17,11 @@ function App() {
       
       <Greeting/>
       <Objective/>
-      <div class="parallax-container">
-        <TechStack/>
-      <div class="parallax"><img src={digital}/></div>
-      </div>
-      <Objective/>
-      <Objective/>
-
-      <Objective/>
-
+      <Quote/>
+      <TechStack/>
+      <TechStackBed/>
+      <QuoteTwo/>
+      <Experience/>
 
   </div>
   
