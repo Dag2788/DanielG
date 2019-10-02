@@ -1,83 +1,42 @@
-import React from 'react';
-import longHorn from '../../../pictures/longhorn_logo.png'
-
-// eslint-disable-next-line
-// type props = {
-//    text: String,
-//    link: any, 
-//    style: String,
-// }
-// eslint-enable-next-line
-
+import React from "react";
+import resume from "../../pictures/resume.pdf";
+import thd from "../../pictures/THD_logo.jpg";
+import longHorn from "../../../pictures/longhorn_logo.png";
 
 function Education() {
-
   return (
-    <React.Fragment>
-      <div className='row marginTop'>
-    <div className='col-9'>
-    <div className='greetingTextExp'>EDUCATION:</div>
-
-    </div>
-    <div className='col-3'>
-    </div>
-    </div>
-    <div className='parallax-education'>
-        <div  id="Education"></div>
-        <div class="col-12 whiteBoxText">
-            <div className='container'>
-                <div className='row marginTop'>
-                <img className="longhorn_logo" src={longHorn} alt="Hook'em Horns!"/>
-                <div className='row'>
-                <div className=' tittle bold fontAlignCenter contentEducationInfo'>The University of Texas at Austin</div>
-                <div className=' fontAlignCenter contentEducationInfo'>Bachelor of Science in Computer Science</div>
-                <div className=' fontAlignCenter contentEducationInfo'>August 2011 - May 2015</div>
-                </div>
-                </div>
-            </div>
-            </div>
-         {/* <div className='grid-container-education'>
-            <span className='logo'>
-            <img className="longhorn_logo" src={longHorn} alt="Hook'em Horns!"/>
-           </span>
-           <div className='tittle'>
-                <div className=' tittle bold fontAlignLeft fontLarge'>The University of Texas at Austin</div>
-                <div className=' fontAlignLeft fontMedium'>Bacherlor of Science in Computer Science</div>
-                <div className=' fontAlignLeft fontSmall'>August 2011 - May 2015</div>
-            </div> 
-            <div className='space'></div>
-            <div className='info'>
-                <div className=' tittle bold fontAlignLeft fontLarge'>Course work:</div>
-                <div className=' fontAlignLeft fontMedium'>Intro to Programming</div>
-                <div className=' fontAlignLeft fontMedium'>Data Structures</div>
-                <div className=' fontAlignLeft fontMedium'>Algorithms</div>
-                <div className=' fontAlignLeft fontMedium'>Computer Architecture</div>
-                <div className=' fontAlignLeft fontMedium'>Operating Systems</div>
-                <div className=' fontAlignLeft fontMedium'>Programming for Performance</div>
-                <div className=' fontAlignLeft fontMedium'>Intro to Security</div>
-                <div className=' fontAlignLeft fontMedium'>Software Engineering</div>
-                <div className=' fontAlignLeft fontMedium'>Data Management</div>
-                <div className=' fontAlignLeft fontMedium'>Artificial Intelligence.</div>   
-
-                      
-            </div> 
-            <div className='stack'>
-                <div className='bold fontAlignLeft fontLarge'>Proficient in:</div>
-                <div className=' fontAlignLeft fontMedium'>Java</div>  
-                <div className=' fontAlignLeft fontMedium'>Javascript</div> 
-                <div className=' fontAlignLeft fontMedium'>REST</div> 
-                <div className=' fontAlignLeft fontMedium'>Node</div>
-                <div className=' fontAlignLeft fontMedium'>React</div> 
-                <div className=' fontAlignLeft fontMedium'>Redux</div>  
-                <div className=' fontAlignLeft fontMedium'>Jasmine/Karma</div> 
-                <div className=' fontAlignLeft fontMedium'>TestNG</div> 
-                <div className=' fontAlignLeft fontMedium'>Git</div> 
-
+    <div class="section white">
+      <div class="row container">
+        <h1 class="col s12 m4 push-m4 grey-text text-darken-3 lighten-3 fontLobster textAlignCenter">
+          Education:
+        </h1>
+      </div>
+      <div class="row container">
+        <div className="col s12 m12 l6">
+          <div class="col s12 m4 push-m4 l8">
+            <img src={longHorn} />
+          </div>
         </div>
-        </div> */}
-     
+        <div className="col s12 m12 l6">
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">2016 - 2017 : </h4> Orders and
+            Purchases: Re-design from JSPs to Angular 2 Beta.
+          </h4>
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">2017 - 2018 : </h4> Cart and Checkout :
+            Event Logging
+          </h4>
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">2018 - 2019 : </h4>Orders and Purchases:
+            Re-design from Angular 2 Beta to React-Redux.
+          </h4>
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">Currently : </h4>Repeat and Re-engage:
+            Subscriptions.
+          </h4>
+        </div>
+      </div>
     </div>
-    </React.Fragment>
   );
 }
 

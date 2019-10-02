@@ -8,6 +8,7 @@ import TechStack from "./body/content/techStack";
 import TechStackBed from "./body/content/techStackBed";
 import Experience from "./body/content/workExperience";
 import QuoteTwo from "./body/content/quoteTwo";
+import Quote from "./body/content/quote";
 
 function App() {
   return (
@@ -21,9 +22,16 @@ function App() {
         <div className="col s12 m12 l6  textAlignCenter">
           <TechStackBed />
         </div>
-      </div>
-      <QuoteTwo />
+      </div>{" "}
+      <Quote />
       <Experience />
+      <Quote />
+      <QuoteTwo />
+      <Quote />
+      <Objective />
+      <Objective />
+      <Objective />
+      <Objective />
     </div>
   );
 }

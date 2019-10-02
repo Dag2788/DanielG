@@ -18,12 +18,26 @@
   height: 200px;
 }
 
+.parallaxSeparator {
+  height: 50px !important;
+  min-height: 50px !important;
+}
+
+.parallaxSeparatorMedium {
+  height: 100px !important;
+  min-height: 100px !important;
+}
+
 .paddingTopSmall {
   padding-top: 20px;
 }
 
 .paddingTopMd {
   padding-top: 50px;
+}
+
+.paddingTopLg {
+  padding-top: 100px;
 }
 
 .shadow {
@@ -34,12 +48,13 @@
   text-align: center;
 }
 
-.textAlignRight {
-  text-align: right;
+.longhornCenter {
+  display: block;
+  margin: auto;
 }
 
-.picPortion {
-  background-image: "./pictures/UT1.jpg";
+.textAlignRight {
+  text-align: right;
 }
 
 .stackDivisor {
@@ -47,9 +62,24 @@
 }
 
 .whiteBoxText {
-  background: rgba(68, 67, 67, 0.7);
-  margin-top: 100px !important;
-  padding-bottom: 20px;
+  background: rgba(12, 12, 12, 0.6);
+  /* margin-top: 50px !important; */
+}
+
+.blackFont {
+  color: black !important;
+}
+
+.noMarginTop {
+  margin-top: none !important;
+}
+
+.noMarginBottom {
+  margin-bottom: none !important;
+}
+
+.educationSection {
+  height: 700px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -57,17 +87,20 @@
     height: 900px;
   }
 
-  .headerHeight {
-    height: 100px;
-  }
-
   .stackDivisor {
     border-right-style: none;
   }
 
   .whiteBoxText {
-    background: rgba(68, 67, 67, 0.7);
+    background: rgba(12, 12, 12, 0.6);
     margin-top: 20px !important;
-    padding-bottom: 20px;
+  }
+
+  .paddingTopLg {
+    padding-top: 30px;
+  }
+
+  .educationSection {
+    height: 800px;
   }
 }
