@@ -12,7 +12,7 @@ function Experience() {
       </div>
       <div class="row container">
         <div className="col s12 m12 l6">
-          <div class="col s12 m4 push-m4 l8">
+          <div class="col s12 m6 push-m3 l8 marginTopSm">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
                 <img class="activator" src={thd} />

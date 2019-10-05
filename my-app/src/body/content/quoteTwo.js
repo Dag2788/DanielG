@@ -5,23 +5,23 @@ import UT from "../../pictures/UT2.png";
 function QuoteTwo() {
   return (
     <div className="parallax-container educationSection">
-      <div className="row">
-        <div className="col s12 m12 l12">
-          <h1 className="fontLobster textAlignCenter blackFont noMarginBottom noMarginTop">
-            Education:
-          </h1>
-        </div>
-      </div>
-      <div class="container whiteBoxText ">
+      <div class="container whiteBoxText">
         {/* <h2 class="header fontTinos shadow">
           "If debugging is the process of removing software bugs, then
           programming must be the process of putting them in.”
         </h2>
         <h2 class=" header fontLobster shadow">— E. W. Dijkstra </h2> */}
         <div className="row">
+      <div className="col s12 m12 l12">
+          <h1 className="fontLobster textAlignCenter noMarginBottom noMarginTop">
+            Education:
+          </h1>
+        </div>
+      </div>
+        <div className="row">
           <div className="col s12 m12 l6">
             <img
-              className="longhorn_logo longhornCenter paddingTopLg"
+              className="longhorn_logo longhornCenter paddingTopMd"
               src={longHorn}
               alt="Hook'em Horns!"
             />{" "}

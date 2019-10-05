@@ -40,6 +40,10 @@
   padding-top: 100px;
 }
 
+.marginTopSm {
+  margin-top: 20px;
+}
+
 .shadow {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
@@ -63,7 +67,8 @@
 
 .whiteBoxText {
   background: rgba(12, 12, 12, 0.6);
-  /* margin-top: 50px !important; */
+  margin-top: 50px !important;
+  padding-bottom: 20px;
 }
 
 .blackFont {
@@ -79,7 +84,7 @@
 }
 
 .educationSection {
-  height: 700px;
+  height: 800px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -94,6 +99,7 @@
   .whiteBoxText {
     background: rgba(12, 12, 12, 0.6);
     margin-top: 20px !important;
+    padding-bottom: none;
   }
 
   .paddingTopLg {
@@ -102,5 +108,9 @@
 
   .educationSection {
     height: 800px;
+  }
+
+  .marginTopSm {
+    margin-top: none;
   }
 }
