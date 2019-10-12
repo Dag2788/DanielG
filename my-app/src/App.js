@@ -9,6 +9,8 @@ import TechStackBed from "./body/content/techStackBed";
 import Experience from "./body/content/workExperience";
 import QuoteTwo from "./body/content/quoteTwo";
 import Quote from "./body/content/quote";
+import AboutMe from "./body/content/aboutMe/aboutme";
+import MyCats from "./body/content/myCats";
 
 function App() {
   return (
@@ -28,10 +30,10 @@ function App() {
       <Quote />
       <QuoteTwo />
       <Quote />
-      <Objective />
-      <Objective />
-      <Objective />
-      <Objective />
+      <AboutMe />
+      <Quote />
+      <MyCats />
+      <Quote />
     </div>
   );
 }

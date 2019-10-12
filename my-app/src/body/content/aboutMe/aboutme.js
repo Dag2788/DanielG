@@ -1,106 +1,55 @@
-import React from 'react';
-import Dan from '../../../pictures/myFace2.jpg'
-
-// eslint-disable-next-line
-// type props = {
-//    text: String,
-//    link: any, 
-//    style: String,
-// }
-// eslint-enable-next-line
-
+import React from "react";
+import thd from "../../../pictures/myFace3.png";
 
 function AboutMe() {
-
   return (
-    <React.Fragment>
-          <div id="About Me"></div>
-          <div className='row marginTop'>
-    <div className='col-12'>
-    <div className='greetingTextAbout'>ABOUT ME:</div>
-
-    </div>
-    </div>
-      <div class="row blackandWhiteBox">
-        <div class="col-6">
-            <div className='row'>
-            <div className='tittle bold fontAlignLeft contentTextInfo col-12'>Passionate about Programming.</div>
+    <div class="section white">
+      <div class="row container">
+        <h1 class="col s12 m4 push-m4 grey-text text-darken-3 lighten-3 fontLobster textAlignCenter">
+          About Me:
+        </h1>
+      </div>
+      <div class="row container">
+        <div className="col s12 m12 l6">
+          <div class="col s12 m6 push-m3 l8 marginTopSm">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src={thd} />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">
+                  Connect<i class="material-icons right">more_vert</i>
+                </span>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">
+                  Full Stack Software Engineer
+                  <i class="material-icons right">close</i>
+                </span>
+                <p class="card-title grey-text text-darken-4">
+                  April 2016 - Present.
+                </p>
+                <p class="card-title grey-text text-darken-4">Austint, Tx.</p>
+              </div>
             </div>
-            <div className='row'>
-
-                <div className=' fontAlignLeft contentTextInfo'>Positive and Enthusiastic.</div>
-                </div>
-
-                <div className='row'>
-
-                <div className=' fontAlignLeft contentTextInfo'>Goal Oriented.</div>
-                </div>
-
-                <div className='row'>
-
-                <div className=' fontAlignLeft contentTextInfo'>ENFJ.</div>  
-                </div>
-
-          
+          </div>
         </div>
-        <div class="col-6">
-        <div class="container">
-        <span className='logo'>
-            <img className="thd_logo marginTopXtra" src={Dan} alt="THD"/>
-           </span>
-        </div>
-
+        <div className="col s12 m12 l6">
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">Interests: </h4> Technology and Design.
+          </h4>
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">Curently Reading:</h4> Vue.js
+            documentation. <br />
+            Differences between Angular, React, and Vue.js.
+          </h4>
+          <h4 class="grey-text text-darken-3 lighten-3 fontTinos ">
+            <h4 className="fontLobster">Hobbies: </h4>Weight Training. Cycling
+            and Mountain Biking. Tennis.
+          </h4>
         </div>
       </div>
-         {/* <div className='grid-container-aboutMe'>
-            <span className='logo'>
-            <img className="aboutMyFace"  src={Dan} alt="Dan"/>
-           </span>
-           <div className='tittle'>
-                <div className=' tittle bold fontAlignLeft fontLarge'>Daniel Garza</div>
-                <div className=' fontAlignLeft fontMedium'>Born in Monterrey, N.L., Mexico.</div>
-                <div className=' fontAlignLeft fontSmall'>October 14th 1988</div>
-            </div> 
-            <div className='info'>
-                <div className=' tittle bold fontAlignLeft fontLarge'>Interests:</div>
-                <div className=' fontAlignLeft fontMedium'>Programming</div>
-                <div className=' fontAlignLeft fontMedium'>Technology</div>
-                <div className=' fontAlignLeft fontMedium'>The Environment</div>
-                <div className=' fontAlignLeft fontMedium'>Self Improvement</div>
-                <div className=' fontAlignLeft fontMedium'>Animal Behavior</div>
-                <div className=' fontAlignLeft fontMedium'>Psychology</div>
-                <div className=' fontAlignLeft fontMedium'>Health and Fitness</div>
-                <div className=' fontAlignLeft fontMedium'>Music</div>
-                <div className=' fontAlignLeft fontMedium'>Art</div>
-                <div className=' fontAlignLeft fontMedium'>History</div>   
-
-                      
-            </div> 
-            <div className='stack'>
-                <div className='bold fontAlignLeft fontLarge'>Hobbies:</div>
-                <div className=' fontAlignLeft fontMedium'>Programming</div>  
-                <div className=' fontAlignLeft fontMedium'>Reading</div> 
-                <div className=' fontAlignLeft fontMedium'>Mountain Biking</div> 
-                <div className=' fontAlignLeft fontMedium'>Cycling</div>
-                <div className=' fontAlignLeft fontMedium'>Weight lifting</div> 
-                <div className=' fontAlignLeft fontMedium'>Movies</div>  
-                <div className=' fontAlignLeft fontMedium'>Video Games</div> 
-                <div className=' fontAlignLeft fontMedium'>Socializing</div> 
-                <div className=' fontAlignLeft fontMedium'>Playing with my cats</div> 
-        </div>
-        <div className='stack2'>
-                <div className='bold fontAlignLeft fontLarge'>Favorite Books:</div>
-                <div className=' fontAlignLeft fontMedium'>Secrets of the Millionaire Mind.</div>
-                <div className=' fontAlignLeft fontMedium'>The Richest Man in Babylon.</div>  
-                <div className=' fontAlignLeft fontMedium'>Inevitable Genius.</div> 
-            </div>
-            <div className='stack3'>
-                <div className='bold fontAlignLeft fontLarge'>Contact:</div>
-                <div className=' fontAlignLeft fontMedium'>dgza88@gmail.com</div>
-            </div>
-        </div> */}
-     
-    </React.Fragment>
+    </div>
   );
 }
 
