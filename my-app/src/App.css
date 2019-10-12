@@ -18,6 +18,10 @@
   height: 200px;
 }
 
+.carousel-slider {
+  height: auto !important;
+}
+
 .parallaxSeparator {
   height: 50px !important;
   min-height: 50px !important;

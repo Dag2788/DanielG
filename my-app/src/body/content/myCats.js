@@ -10,9 +10,9 @@ function MyCats() {
         </h1>
       </div>
       <div class="row container">
-        <h1 class="col s12 m4 push-m4 grey-text text-darken-3 lighten-3 fontLobster textAlignCenter">
+        <span class="col s12 m6 push-m3 l4 push-l4 grey-text text-darken-3 lighten-3 fontLobster textAlignCenter">
           <Cats />
-        </h1>
+        </span>
       </div>
       <div class="row container">
         <h4 class="grey-text text-darken-3 lighten-3 fontLobster fontTinos ">
