@@ -35,7 +35,7 @@ function MyEducation() {
         </div>
       </div>
       <div className="parallax">
-        <img src={UT} />
+        <img alt="UT" src={UT} />
       </div>
     </div>
   );

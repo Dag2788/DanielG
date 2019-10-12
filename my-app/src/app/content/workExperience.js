@@ -1,19 +1,8 @@
 import React from "react";
-import resume from "../../pictures/resume.pdf";
 import thd from "../../pictures/THD_logo.jpg";
+import { years, experience } from "../constants/constants";
 
 function Experience() {
-  let years = ["2016 - 2017", "2017 - 2018", "2018 - 2019", "Currently"];
-
-  let experience = {
-    "2016 - 2017":
-      "Orders and Purchases: Re-design from JSPs to Angular 2 Beta.",
-    "2017 - 2018": "Cart and Checkout: Event Logging.",
-    "2018 - 2019":
-      "Orders and Purchases: Re-design from Angular 2 Beta to React-Redux.",
-    Currently: "Repeat and Re-engage: Subscriptions."
-  };
-
   return (
     <div class="section white">
       <div class="row container">
@@ -26,7 +15,7 @@ function Experience() {
           <div class="col s12 m6 push-m3 l8 marginTopSm">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={thd} />
+                <img alt="THD" class="activator" src={thd} />
               </div>
               <div class="card-content">
                 <span class="card-title activator grey-text text-darken-4">

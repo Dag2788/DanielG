@@ -19,27 +19,27 @@ class Cats extends Component {
         showThumbs={false}
       >
         <div>
-          <img src={cat1} />
+          <img alt="cat" src={cat1} />
           <p className="legend">Honey</p>
         </div>
         <div>
-          <img src={cat2} />
+          <img alt="cat" src={cat2} />
           <p className="legend">Lady</p>
         </div>
         <div>
-          <img src={cat3} />
+          <img alt="cat" src={cat3} />
           <p className="legend">What is that?</p>
         </div>
         <div>
-          <img src={cat4} />
+          <img alt="cat" src={cat4} />
           <p className="legend">Nap time!</p>
         </div>
         <div>
-          <img src={cat5} />
+          <img alt="cat" src={cat5} />
           <p className="legend">Lady</p>
         </div>
         <div>
-          <img src={cat6} />
+          <img alt="cat" src={cat6} />
           <p className="legend">Honey</p>
         </div>
       </Carousel>

@@ -16,6 +16,7 @@ function Objective() {
             class="col s12 m4 push-m4 waves-effect waves-light btn-large fontLobster buttonFont"
             href={resume}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <i class="material-icons right">local_printshop</i>Resume
           </a>

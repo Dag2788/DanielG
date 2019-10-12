@@ -1,23 +1,8 @@
 import React from "react";
 import me from "../../pictures/myFace3.png";
+import { facts } from "../constants/constants";
 
 function AboutMe() {
-  let facts = [
-    {
-      tittle: "Interets",
-      about: "Technology and Design."
-    },
-    {
-      tittle: "Curently Reading",
-      about:
-        "Vue.js documentation. Differences between Angular, React, and Vue.js."
-    },
-    {
-      tittle: "Hobbies",
-      about: "Weight Training. Cycling and Mountain Biking. Tennis."
-    }
-  ];
-
   return (
     <div class="section white">
       <div class="row container">
@@ -30,7 +15,7 @@ function AboutMe() {
           <div class="col s12 m6 push-m3 l8 marginTopSm">
             <div class="card">
               <div class="card-image waves-effect waves-block waves-light">
-                <img class="activator" src={me} />
+                <img alt="Me" class="activator" src={me} />
               </div>
             </div>
           </div>

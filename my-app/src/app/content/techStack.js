@@ -1,35 +1,7 @@
 import React from "react";
-import resume from "../../pictures/resume.pdf";
+import { techFed } from "../constants/constants";
 
 function TechStack() {
-  let tech = [
-    "Javascript",
-    "ES6",
-    "HTML",
-    "CSS",
-    "JQuery",
-    "Node",
-    "Angular",
-    "React",
-    "Redux",
-    "Jest",
-    "Enzyme",
-    "Flow",
-    "Webpack",
-    "Grunt",
-    "Babel",
-    "Typescript",
-    "Axios",
-    "Thunk",
-    "Sagas",
-    "MomentJs",
-    "Materialize",
-    "Lodash",
-    "Jasmine",
-    "Selenium",
-    "Puppeteer"
-  ];
-
   return (
     <div class="section white">
       <div class="row">
@@ -38,7 +10,7 @@ function TechStack() {
         </h1>
       </div>
       <div class="row paddingTopSmall textAlignCenter stackDivisor">
-        {tech.map(val => {
+        {techFed.map(val => {
           return (
             <h4 class="col s6 l4 waves-effect waves-light fontTinos buttonFont textAlignCenter">
               {val}

@@ -7,7 +7,7 @@ function Section() {
       <div class="row container"></div>
       <div className="parallax">
         <div className="row ">
-          <img src={Techy} />
+          <img alt="section" src={Techy} />
         </div>
       </div>
     </div>

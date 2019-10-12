@@ -1,28 +1,7 @@
 import React from "react";
-import resume from "../../pictures/resume.pdf";
+import { techBed } from "../constants/constants";
 
 function TechStackBed() {
-  let tech = [
-    "Back-End",
-    "Java",
-    "C++",
-    "Python",
-    "Node",
-    "Maven",
-    "REST",
-    "AspectJ",
-    "Cucumber",
-    "TestNG",
-    "Swagger",
-    "Zipkin",
-    "XML",
-    "SQL",
-    "Perl",
-    "Linux",
-    "Git",
-    "Spring Boot"
-  ];
-
   return (
     <div class="section white">
       <div class="row">
@@ -31,7 +10,7 @@ function TechStackBed() {
         </h1>
       </div>
       <div class="row  paddingTopSmall">
-        {tech.map(val => {
+        {techBed.map(val => {
           return (
             <h4 class="col s6 l4 waves-effect waves-light fontTinos buttonFont textAlignCenter">
               {val}

@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
-import Greeting from "./body/greeting/greeting";
-import Objective from "./body/content/objective";
-import TechStack from "./body/content/techStack";
-import TechStackBed from "./body/content/techStackBed";
-import Experience from "./body/content/workExperience";
-import MyEducation from "./body/content/myEducation";
-import Section from "./body/content/section";
-import AboutMe from "./body/content/aboutme";
-import MyCats from "./body/content/myCats";
+import Greeting from "./app/greeting/greeting";
+import Objective from "./app/content/objective";
+import TechStack from "./app/content/techStack";
+import TechStackBed from "./app/content/techStackBed";
+import Experience from "./app/content/workExperience";
+import MyEducation from "./app/content/myEducation";
+import Section from "./app/content/section";
+import AboutMe from "./app/content/aboutme";
+import MyCats from "./app/content/myCats";
 
 function App() {
   return (
