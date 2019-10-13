@@ -117,4 +117,10 @@
   .marginTopSm {
     margin-top: none;
   }
+
+  .longhornCenter {
+    display: block;
+    margin: auto;
+    width: 75%;
+  }
 }
