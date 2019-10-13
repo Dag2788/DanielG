@@ -13,8 +13,11 @@ import MyCats from "./app/content/myCats";
 function App() {
   return (
     <div id="top" className="App">
+      {/* Header section */}
       <Greeting />
       <Objective />
+
+      {/* TechSatck section */}
       <div className="row">
         <div className="col s12 m12 l6   textAlignCenter">
           <TechStack />
@@ -23,13 +26,21 @@ function App() {
           <TechStackBed />
         </div>
       </div>
+
+      {/* Experience section */}
       <Section />
       <Experience />
       <Section />
+
+      {/* Education section */}
       <MyEducation />
       <Section />
+
+      {/* AboutMe section */}
       <AboutMe />
       <Section />
+      
+      {/* Cats section */}
       <MyCats />
       <Section />
     </div>
